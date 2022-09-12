@@ -1,0 +1,11 @@
+create table dept1
+(did numeric(4) constraint dept1_did_pk primary key,
+dname varchar(20),
+loc varchar(20))
+ 
+create table emp1
+(empid numeric(4) primary key,
+ename varchar(20),
+sal numeric(7),
+did numeric(4),
+constraint emp1_did_fk foreign key (did) references dept1 (did)) 
