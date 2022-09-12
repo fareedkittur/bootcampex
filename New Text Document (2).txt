@@ -1,0 +1,11 @@
+[10:20] Instructor KH
+create table prod
+
+(prod_id numeric(4),
+
+prod_name varchar(10),
+
+cost numeric(7,2),
+
+feedback varchar(7))
+
